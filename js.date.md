@@ -10,7 +10,7 @@
 <body>
 	<script>
 		// 统计月份
-		function countMonth(a , b) {
+		function calculateMonth(a , b) {
 
 			var arrA = a.split("-");
 			arrB = b.split("-");
@@ -60,13 +60,13 @@
 
 		}
 
-		var s = countMonth('2017-9', '2018-10');
-		var s1 = countMonth('2017-9', '2018-9');
-		var s2 = countMonth('2017-9', '2017-9');
-		var s3 = countMonth('2018-9', '2017-9');
-		var s4 = countMonth('2018-9', '2017-11');
-		var s5 = countMonth('2018-9', '2017-8');
-		var s6 = countMonth('2017-9', '2018-7');
+		var s = calculateMonth('2017-9', '2018-10');
+		var s1 = calculateMonth('2017-9', '2018-9');
+		var s2 = calculateMonth('2017-9', '2017-9');
+		var s3 = calculateMonth('2018-9', '2017-9');
+		var s4 = calculateMonth('2018-9', '2017-11');
+		var s5 = calculateMonth('2018-9', '2017-8');
+		var s6 = calculateMonth('2017-9', '2018-7');
 
 		console.log(s,s1,s2,s3,s4,s5,s6);
 	</script>
