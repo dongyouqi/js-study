@@ -67,7 +67,7 @@
 		var s4 = calculateMonth('2018-9', '2017-11');
 		var s5 = calculateMonth('2018-9', '2017-8');
 		var s6 = calculateMonth('2017-9', '2018-7');
-
+		//  TODO 进一步测试
 		console.log(s,s1,s2,s3,s4,s5,s6);
 	</script>
 </body>
