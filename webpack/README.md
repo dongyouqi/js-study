@@ -11,11 +11,16 @@
 
 ```
 
-* npm install --save-dev webpack
-* npm install --save-dev webpack-dev-server
+  npm install --save-dev webpack
+
+  npm install --save-dev webpack-dev-server
+
+  npm start 开始编译
 
   cd public
+
   php -S 127.0.0.1:2000
-  打开网站
+
+  127.0.0.1:2000  // 打开网站查看
 
 ```
