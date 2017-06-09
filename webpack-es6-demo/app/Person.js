@@ -7,6 +7,15 @@ class Person{
   say(){
     return `我是${this.name},我今年${this.age}岁了。`;
   }
+  initAge(age) {
+    let number = 0;
+
+    if(isNumber(age)) {
+          number = age;
+    }
+    this.age = number;
+  }
+  
 }
 
 export default Person;
