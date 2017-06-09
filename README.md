@@ -1,11 +1,15 @@
 # js-study
-学习js
 
+学习js
 
 ## webpack
 
-[webpack](webpack)
+[查看](webpack)
+
+## webpack-es6-demo
+
+[查看](webpack-es6-demo)
 
 ## date
 
-[date](date)
+[查看](date)

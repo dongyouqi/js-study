@@ -1,3 +1,6 @@
+
+var webpack = require('webpack');
+
 module.exports = {
   devtool: 'eval-source-map',//配置生成Source Maps，选择合适的选项
   entry:  __dirname + "/app/main.js",//已多次提及的唯一入口文件
@@ -10,6 +13,14 @@ module.exports = {
     colors: true,//终端中输出结果为彩色
     historyApiFallback: true,//不跳转
     inline: true//实时刷新
-  }
+  },
+  
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    })
+  ]
 
 }
