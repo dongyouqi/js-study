@@ -4,9 +4,46 @@ import Proxy from './Proxy.js';
 let p = new Person('张三', 20);
 document.write(p.say());
 
+
 Proxy.count = 2;
 Proxy.aaa = 1111;
 
+/**
+ * 数字的操作
+ */
+
+// let binary = 0b111110111 === 503;
+let binary = Number('0b111');
+
+
+
+console.log(binary);
+
+let a = Array();
+
+console.log(Number.isNaN(a));
+
+let isFinity = Number.isFinity(a);
+
+
+
+
+
+
+
+// console.log(typeof a);
+
+
+
+
+
+
+
+
+
+
+// 字符串的测试
+/*
 let s = "日";
 var length = s.length;
 
@@ -42,6 +79,9 @@ console.log(searchStr);
 let reg = /^.$/u.test('中');
 
 console.log(reg);
+
+*/
+
 
 
 
