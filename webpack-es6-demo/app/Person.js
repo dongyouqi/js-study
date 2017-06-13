@@ -6,11 +6,6 @@ class Person{
 	}
 
 	say(){
-
-		for(let i = 0; i< 10; i++) {
-			console.log(i);
-		}
-
 		return `我是${this.name},我今年${this.age}岁了。`;
 	}
 
@@ -18,7 +13,7 @@ class Person{
 
 		let number = 0;
 
-		if(isNumber(age)) {
+		if(Number.isNumber(age)) {
 			number = age;
 		}
 

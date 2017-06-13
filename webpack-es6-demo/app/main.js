@@ -14,15 +14,7 @@ Proxy.aaa = 1111;
 
 // let binary = 0b111110111 === 503;
 let binary = Number("0b111");
-
-
-
-console.log(binary);
-
 let a = Array();
-
-console.log(Number.isNaN(a));
-
 let isFinity = Number.isFinity(a);
 
 
@@ -81,23 +73,3 @@ let reg = /^.$/u.test('中');
 console.log(reg);
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
