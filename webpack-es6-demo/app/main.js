@@ -1,7 +1,7 @@
-import Person from './Person.js';
-import Proxy from './Proxy.js';
+import Person from "./Person.js";
+import Proxy from "./Proxy.js";
 
-let p = new Person('张三', 20);
+let p = new Person("张三", 20);
 document.write(p.say());
 
 
@@ -13,7 +13,7 @@ Proxy.aaa = 1111;
  */
 
 // let binary = 0b111110111 === 503;
-let binary = Number('0b111');
+let binary = Number("0b111");
 
 
 
