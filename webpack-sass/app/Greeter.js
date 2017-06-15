@@ -1,7 +1,12 @@
 
 var config = require('./config.json');
 
-require("./a.css");
+// require("./stylesheet.css");
+
+require("./sass/a.scss");
+require("./sass/b.scss");
+
+
 
 module.exports = function() {
     var greet = document.createElement('div');
