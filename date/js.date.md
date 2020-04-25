@@ -10,6 +10,7 @@
 <body>
 	<script>
 		// 统计月份
+		var 
 		function calculateMonth(a , b) {
 
 			var arrA = a.split("-");
