@@ -1,6 +1,6 @@
 # js-study
 
-学习js
+学习jsxxx
 
 ## webpack
 
